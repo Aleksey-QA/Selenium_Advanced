@@ -17,4 +17,5 @@ upload_file = driver.find_element("xpath", "//input[@type='file']")
 upload_file.send_keys(f"{os.getcwd()}/downloads/test_upload.jpg")
 
 time.sleep(1)#для наглядности
+
 driver.quit()  # Закрывает все окна и завершает сессию

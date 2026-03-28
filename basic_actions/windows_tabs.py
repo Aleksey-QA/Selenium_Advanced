@@ -29,4 +29,5 @@ time.sleep(1)
 driver.switch_to.window(tabs[0])
 time.sleep(1)
 print(driver.window_handles)
+
 driver.quit()  # Закрывает все окна и завершает сессию

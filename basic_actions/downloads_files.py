@@ -19,4 +19,5 @@ driver.get("https://the-internet.herokuapp.com/download")
 
 driver.find_elements("xpath", "//a")[2].click()
 
+
 driver.quit()  # Закрывает все окна и завершает сессию
