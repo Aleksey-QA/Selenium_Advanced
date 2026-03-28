@@ -28,3 +28,4 @@ button.click()
 time.sleep(2)
 driver.find_element(*BUTTON_CLICK_ME_LOCATOR).click()
 time.sleep(1)
+driver.quit()  # Закрывает все окна и завершает сессию

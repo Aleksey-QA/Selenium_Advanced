@@ -39,4 +39,5 @@ alert.accept() #принять алерт
 text = driver.find_element(By.XPATH, "//span[@id='promptResult']").text
 assert text.__contains__(SEND_KEYS), f"Текст не передан в аллерт: {text}"
 
+
 driver.quit()  # Закрывает все окна и завершает сессию
