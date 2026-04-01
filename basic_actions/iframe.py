@@ -1,3 +1,4 @@
+"""Модуль для работы с iframe на веб-страницах."""
 import time
 
 from selenium.webdriver.support import expected_conditions as EC

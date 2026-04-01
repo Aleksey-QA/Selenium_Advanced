@@ -1,3 +1,4 @@
+"""Модуль для работы с вкладками и окнами браузера."""
 import time
 
 from selenium import webdriver

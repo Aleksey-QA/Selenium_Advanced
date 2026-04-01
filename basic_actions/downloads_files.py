@@ -1,3 +1,4 @@
+"""Модуль для тестирования загрузки файлов."""
 import os
 
 from selenium import webdriver

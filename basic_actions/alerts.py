@@ -1,3 +1,4 @@
+"""Модуль для работы с alert-окнами в браузере."""
 import time
 
 from selenium import webdriver
