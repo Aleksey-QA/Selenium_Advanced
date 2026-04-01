@@ -29,7 +29,7 @@ wait.until(EC.element_to_be_clickable(BUTTON_2)).click()
 
 alert = wait.until(EC.alert_is_present())
 
-driver.switch_to.alert
+#driver.switch_to.alert    закоммитил
 #print(alert.text) #вывести текст алерта
 #alert.accept() #принять алерт
 #alert.dismiss()  #отклонить алерт
@@ -37,6 +37,6 @@ SEND_KEYS = "Hello World!"
 alert.send_keys(SEND_KEYS) #Вписать текст в алерт
 alert.accept() #принять алерт
 text = driver.find_element(By.XPATH, "//span[@id='promptResult']").text
-assert text.__contains__(SEND_KEYS), f"Текст не передан в аллерт: {text}"
+assert SEND_KEYS in text, f"Текст не передан в аллерт: {text}"
 
 driver.quit()  # Закрывает все окна и завершает сессию
