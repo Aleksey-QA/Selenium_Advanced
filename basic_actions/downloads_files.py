@@ -7,7 +7,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 chrome_options = webdriver.ChromeOptions()
 prefs = {
-    "download.default_directory": f"{os.getcwd()}\downloads"
+    "download.default_directory": fr"{os.getcwd()}\downloads"
 }
 print(prefs)
 chrome_options.add_experimental_option("prefs", prefs)
