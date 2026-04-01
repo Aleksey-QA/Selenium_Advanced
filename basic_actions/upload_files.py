@@ -2,8 +2,9 @@ import os
 import time
 
 from selenium import webdriver
-from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.service import Service
+
+from webdriver_manager.chrome import ChromeDriverManager
 
 chrome_options = webdriver.ChromeOptions()
 service = Service(executable_path=ChromeDriverManager().install())
